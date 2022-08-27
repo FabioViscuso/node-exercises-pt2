@@ -1,6 +1,6 @@
 
 import supertest from "supertest";
-import * as server from "./server";
+import * as server from "./http-server/server";
 
 const simulation = supertest(server);
 
